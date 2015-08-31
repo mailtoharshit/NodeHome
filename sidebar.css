@@ -101,6 +101,7 @@
 
     #sidebar-wrapper {
         width: 250px;
+        background-color: white;
     }
 
     #wrapper.toggled #sidebar-wrapper {
