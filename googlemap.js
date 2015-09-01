@@ -1,21 +1,4 @@
 
-// This example creates circles on the map, representing
-// populations in North America.
-
-// First, create an object containing LatLng and population for each state.
-var statemap = {};
-statemap['newyork'] = {
-  center: new google.maps.LatLng(40.714352, -74.005973),
-  population: {!NewyorktAccounts}
-};
-statemap['california'] = {
-  center: new google.maps.LatLng(34.052234, -118.243684),
-  population: {!CaliforniatAccounts}
-};
-statemap['texas'] = {
-  center: new google.maps.LatLng(49.25, -123.1),
-  population: {!TexasAccounts}
-};
 
 var stateCircle;
 
